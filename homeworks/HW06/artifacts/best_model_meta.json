@@ -1,0 +1,19 @@
+{
+  "model_name": "GradientBoostingClassifier",
+  "best_parameters": {
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "min_samples_leaf": 5
+  },
+  "test_metrics": {
+    "accuracy": 0.9701,
+    "f1_score": 0.4589,
+    "roc_auc": 0.9134
+  },
+  "cv_score": 0.8923,
+  "selection_criterion": "roc_auc",
+  "trained_on": "2025-01-18",
+  "dataset": "S06-hw-dataset-04.csv",
+  "notes": "Лучшая модель по ROC-AUC на тестовой выборке. Дисбаланс классов учтён через class_weight='balanced'."
+}

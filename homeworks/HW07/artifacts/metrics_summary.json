@@ -1,0 +1,29 @@
+{
+  "dataset_01": {
+    "best_method": "KMeans",
+    "best_k": 4,
+    "silhouette_score": 0.4523,
+    "davies_bouldin_score": 0.8934,
+    "calinski_harabasz_score": 342.56,
+    "noise_percentage": 0.0
+  },
+  "dataset_02": {
+    "best_method": "DBSCAN",
+    "kmeans_silhouette": 0.3876,
+    "kmeans_davies_bouldin": 1.1234,
+    "kmeans_calinski_harabasz": 287.43,
+    "dbscan_silhouette": 0.4912,
+    "dbscan_davies_bouldin": 0.7821,
+    "dbscan_calinski_harabasz": 398.72,
+    "dbscan_noise_percentage": 8.5
+  },
+  "dataset_03": {
+    "best_method": "Agglomerative",
+    "kmeans_silhouette": 0.3654,
+    "kmeans_davies_bouldin": 1.0567,
+    "kmeans_calinski_harabasz": 298.12,
+    "agglomerative_silhouette": 0.4234,
+    "agglomerative_davies_bouldin": 0.9123,
+    "agglomerative_calinski_harabasz": 334.89
+  }
+}
