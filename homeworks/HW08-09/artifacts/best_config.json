@@ -1,0 +1,29 @@
+{
+  "dataset": "KMNIST",
+  "seed": 42,
+  "model": {
+    "class": "MLP",
+    "input_size": 784,
+    "hidden_sizes": [
+      512,
+      256
+    ],
+    "num_classes": 10,
+    "activation": "ReLU",
+    "dropout_p": 0.0,
+    "use_batchnorm": true
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "early_stopping_patience": 5,
+    "epochs_trained": 19
+  },
+  "results": {
+    "best_val_accuracy": 0.9627,
+    "best_val_loss": 0.169
+  }
+}
