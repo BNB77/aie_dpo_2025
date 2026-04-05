@@ -55,3 +55,8 @@ logs/
 *.tmp
 *.bak
 *.old
+
+# Большие датасеты (превышают лимит GitHub 100MB)
+*.tar.gz
+*.tar
+*.gz
