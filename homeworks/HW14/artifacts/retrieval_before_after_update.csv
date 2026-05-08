@@ -1,0 +1,7 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+How does batch normalization stabilize training of deep networks?,"Dropout, Regularization, Overfitting and Underfitting","Batch Normalization, Dropout, Regularization",True
+How do skip connections help train very deep neural networks like ResNet?,"Convolutional Neural Networks, Backpropagation, Artificial Neural Networks","ResNet and Skip Connections, Convolutional Neural Networks, Backpropagation",True
+How is BERT pretrained and what makes it bidirectional?,"Transformer Architecture, Attention Mechanism, Word Embeddings","BERT Language Model, Transformer Architecture, Attention Mechanism",True
+How is feature importance computed in random forests?,"Random Forest, Decision Trees, Gradient Boosting","Feature Importance, Random Forest, Decision Trees",True
+How does dropout regularize neural network training?,"Dropout, Regularization, Overfitting and Underfitting","Dropout, Regularization, Overfitting and Underfitting",False
+What is the difference between bagging and boosting ensemble methods?,"Random Forest, Gradient Boosting, Decision Trees","Ensemble Methods, Random Forest, Gradient Boosting",True

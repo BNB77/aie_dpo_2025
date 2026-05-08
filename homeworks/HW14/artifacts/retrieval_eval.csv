@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,recall_at_k,rank_of_first_relevant
+How does backpropagation compute gradients in neural networks?,doc_10,"Backpropagation, Artificial Neural Networks, LSTM Networks, Recurrent Neural Networks, Transformer Architecture",1,1.0,1
+How does random forest use bagging to build multiple decision trees?,doc_04,"Random Forest, Gradient Boosting, Decision Trees, Ensemble Methods, K-Means Clustering",1,1.0,1
+What is the difference between overfitting and underfitting?,doc_21,"Overfitting and Underfitting, Regularization, Dropout, Cross-Validation, Decision Trees",1,1.0,1
+How do convolutional filters detect patterns in images?,doc_11,"Convolutional Neural Networks, Artificial Neural Networks, Recurrent Neural Networks, ResNet and Skip Connections, Backpropagation",1,1.0,1
+How does self-attention work in the transformer model?,"doc_14, doc_15","Attention Mechanism, Transformer Architecture, Word Embeddings, BERT Language Model, Recurrent Neural Networks",1,1.0,1
+How does k-means algorithm assign points to cluster centroids?,doc_22,"K-Means Clustering, Principal Component Analysis, Reinforcement Learning, Decision Trees, Naive Bayes",1,1.0,1
+What is transfer learning and how does fine-tuning work?,doc_17,"Transfer Learning, BERT Language Model, Word Embeddings, Artificial Neural Networks, Transformer Architecture",1,1.0,1
+How does dropout prevent co-adaptation of neurons during training?,doc_19,"Dropout, Regularization, Overfitting and Underfitting, Batch Normalization, Artificial Neural Networks",1,1.0,1
+What is PCA and how does it reduce dimensionality by finding principal components?,doc_23,"Principal Component Analysis, K-Means Clustering, Reinforcement Learning, Feature Importance, Naive Bayes",1,1.0,1
+How do GAN generator and discriminator compete during adversarial training?,doc_25,"Generative Adversarial Networks, Artificial Neural Networks, Backpropagation, BERT Language Model, Reinforcement Learning",1,1.0,1
