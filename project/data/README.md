@@ -22,3 +22,21 @@
      - небольшой пример (sample) для демонстрации.
 
 Рекомендуется добавить в этот файл (или отдельный `data_description.md`) описание того, какие файлы тут используются и откуда они взялись.
+
+---
+
+## Данные этого проекта
+
+- **Источник:** UCI "Default of Credit Card Clients" (Yeh, I-C. & Lien, C.-H., 2009),
+  https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients — открытый
+  академический датасет, без персональных данных (только числовой ID клиента).
+- `raw/uci_credit_card_default_raw.csv` — сырой датасет как скачан с UCI (30000 строк, 25 столбцов).
+- `credit_data_full.csv` — после очистки аномальных категорий и feature engineering
+  (`src/data/prepare_data.py`), 30000 строк, 13 столбцов (12 признаков + `default`).
+- `credit_data_sample.csv` — демо-выборка (300 строк) для быстрой проверки без полного пайплайна.
+
+Воспроизвести `credit_data_full.csv`/`credit_data_sample.csv` из сырого файла:
+
+```bash
+python -m src.data.prepare_data
+```

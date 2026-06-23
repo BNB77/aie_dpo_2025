@@ -1,0 +1,25 @@
+{
+  "best_model": "gradient_boosting_tuned",
+  "calibrated_test_roc_auc": 0.7705,
+  "calibrated_test_f1": 0.5237,
+  "brier_score_before_calibration": 0.1903,
+  "brier_score_after_calibration": 0.1398,
+  "decision_threshold": 0.2639,
+  "feature_columns": [
+    "LIMIT_BAL",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "max_delay",
+    "mean_delay",
+    "n_months_delayed",
+    "avg_bill_amt",
+    "avg_pay_amt",
+    "payment_to_bill_ratio",
+    "credit_utilization",
+    "bill_trend"
+  ],
+  "seed": 42,
+  "n_train": 24000,
+  "n_test": 6000
+}
